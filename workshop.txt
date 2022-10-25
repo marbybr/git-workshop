@@ -1,0 +1,4 @@
+terminal:
+git status
+git add filename: add from working directory to staging directory
+git reset: reset from staging directory to working directory
