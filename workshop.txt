@@ -1,4 +1,21 @@
+Local PC --> Working directory --> Staging area --> Local repository
+
+Remote repository: Github
+
+Branching: creating multiple versions of your code
+
 terminal:
 git status
 git add filename: add from working directory to staging directory
 git reset: reset from staging directory to working directory
+git commit -m "Added script to create dad jokes" (commit on local pc)
+git log
+git push
+git checkout -b development (create or go to branch)
+In VSCode, you can see branch in bottom left
+git add . (add all files)
+git commit -m "Added a docstring"
+now two branches:
+	- one main, one with docstring
+.gitignore: files to be ignored by git
+- pull request/merge request: from development branch to main branch (merging development branch back into main branch)
