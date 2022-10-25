@@ -2,9 +2,10 @@ from urllib.request import Request, urlopen
 
 def fetch_random_dad_joke() -> str:
     """
-    This will result in a conflict.
+    Fetch a random dad joke
+    
+    This was created inside development branch
 
-    Made in the main branch    
     """
     req = Request(
         url="https://icanhazdadjoke.com/",
