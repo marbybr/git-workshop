@@ -7,7 +7,6 @@ def fetch_random_dad_joke() -> str:
     This was created inside development branch
 
     """
-
     req = Request(
         url="https://icanhazdadjoke.com/",
         headers={
