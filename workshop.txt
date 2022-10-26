@@ -14,3 +14,8 @@ git push
 git checkout -b development (create or go to branch)
 In VSCode, you can see branch in bottom left
 git add . (add all files)
+git commit -m "Added a docstring"
+now two branches:
+	- one main, one with docstring
+.gitignore: files to be ignored by git
+- pull request/merge request: from development branch to main branch (merging development branch back into main branch)
